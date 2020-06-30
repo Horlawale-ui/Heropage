@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body {width: auto!important; overflow-x: hidden!important}
 /*-Nav------*/
 .navbar-nav > li{
   padding-left:30px;
