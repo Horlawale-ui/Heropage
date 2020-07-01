@@ -228,7 +228,7 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color:#E13B63;
   color: black;
-  padding: 12px 29px;
+  padding: 12px 12px;
   border: none;
   cursor: pointer;
   font-size: 24px;
@@ -329,7 +329,10 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 /* Media Queries */
 @media only screen and (max-width: 540px) {
-  /*--
+  
+  .search{
+    display: none;
+  }
   .about-us {
     flex-direction: column-reverse;
   }
@@ -351,6 +354,14 @@ body {font-family: Verdana, sans-serif; margin:0}
   .hero-text p{
     font-size: 16px;
   }
+  input[type=submit] {
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  width:80px;
+  height:60px;
+}
 }
 
 /* Screen size above 540px and below 769px */
@@ -363,4 +374,3 @@ body {font-family: Verdana, sans-serif; margin:0}
   }
 }
 
---*/
